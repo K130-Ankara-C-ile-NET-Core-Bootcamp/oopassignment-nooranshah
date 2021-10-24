@@ -86,7 +86,7 @@
 	CarStringCommandExecutor şunları içermelidir:
 		- CarCommandExecutorBase'i extend etmelidir
 		- IStringCommand interface'ini implemente etmelidir
-		- CarResponse ExecuteCommand(string commandObject)
+		- void ExecuteCommand(string commandObject)
 	
 	Surface şunları içermelidir:
 		- ISurface interface'ini implemente etmelidir
